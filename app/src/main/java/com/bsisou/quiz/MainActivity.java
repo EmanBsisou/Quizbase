@@ -43,8 +43,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Log.d("Quiz", "True button pressed");//just to test that listener is working
-                Toast tmsg = Toast.makeText(getApplicationContext(),"True clicked!", Toast.LENGTH_SHORT);
-                tmsg.show();
+                Toast.makeText(getApplicationContext(),"True clicked!", Toast.LENGTH_SHORT).show();
             }
         });
 
